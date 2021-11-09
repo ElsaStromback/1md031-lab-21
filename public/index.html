@@ -1,1 +1,103 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>BurgerOnline</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+      <header>
+         <h1>Welcome to BurgerOnline</h1>
+      </header>
+      <main>
+        <section>
+            <h3>Select burger</h3>
+            <nav> Choose your burger</nav>
+            <div style="float:left;">
+            <h3>Cheeseburger</h3>
+            <img src= https://www.mathiaszachau.com/wp-content/uploads/2016/05/saftiga-hamburgare-e1463035643226.jpg style=width:150px >
+            <ul>
+                <li>ost</li>
+                <li>och</li>
+                <li>annat!!</li>
+            </ul>
+            </div>
+
+            <div style="float:left;">
+            <h3>Halloumiburger</h3>
+            <img src= https://ingmar.app/blogg/wp-content/uploads/2020/11/Vegoburgare.jpg style= width:200px >
+            <ul>
+                <li>sallad</li>
+                <li>och</li>
+                <li>sånt</li>
+            </ul>
+           
+            </div>
+
+            <div style="clear:right;">
+            <h3>Greek</h3>
+            <img src= https://res.cloudinary.com/coopsverige/image/upload/w_1200,h_1200/v1485261961/184383.jpg style=width:170px >    
+            <ul>
+                <li>Tzatziki</li>
+                <li>lalala</li>
+                <li>hej</li>
+            </ul>
+            </div>
+
+        </section>
+
+
+        <section>
+            <h3>Costumer information</h3>
+            <nav> Provide necessery information  </nav>
+            <h4>Delivery information:</h4>
+            <p>
+                <label for="fullname">Full name</label><br>
+                <input type="text" id="fullname" name="fn" required="required" placeholder="First- and Last name">
+            </p>
+
+            <p>
+                <label for="emailadress">E-Mail</label><br>
+                <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+            </p>
+            <p>
+                <label for="streetname">Street</label><br>
+                <input type="text" id="streetname" name="sn" placeholder="Steet name">
+            </p>
+            <p>
+                <label for="housenumber">House</label><br>
+                <input type="number" id="housenumber" name="hn" placeholder="House number">
+            </p>
+            <p>
+                <label for="Payment">Payment options</label><be>
+                <select id="Payment" name="pmt">
+                    <option>Credit card</option>
+                    <option>Swish</option>
+                    <option>Paypal</option>
+                    <option>Klarna</option>
+                </select>
+             </p>
+
+             <p>Gender:</p>
+
+             <form>
+                  <input type="radio" id="male" name="Gender" value="male">
+                  <label for="male">Male</label><br>
+                  <input type="radio" id="female" name="Gender" value="female">
+                  <label for="female">Female</label><br>
+                  <input type="radio" id="cat" name="Gender" value="Cat" checked>
+                  <label for="cat">Cat</label>
+                </form> 
+
+            
+                <button type="submit">
+                    <img src=https://static5.depositphotos.com/1000270/486/i/600/depositphotos_4869272-stock-photo-cute-bengal-kitten-looks-pensively.jpg style=width:30px>
+                    Place order 
+                  </button>
+        </section>
+      </main>
+      <hr>
+      <footer>
+        &copy; Hypotetical Burgers Inc.
+      </footer
+   </body>
+</html>
